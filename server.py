@@ -30,7 +30,7 @@ pub_key_bytes = public_key.public_bytes(
     format=serialization.PublicFormat.SubjectPublicKeyInfo
 )
 
-HOST = '192.168.0.14'
+HOST = ''
 PORT =  8000
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
