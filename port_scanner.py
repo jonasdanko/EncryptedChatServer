@@ -1,6 +1,6 @@
 import socket
 
-IP = '192.168.0.14'
+IP = ''
 
 for port in range (1, 1025):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
